@@ -1,0 +1,118 @@
+// X-Small devices (portrait phones, less than 576px)
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .sidebar {
+    max-width: 30%;
+  }
+  .content {
+    max-width: 65%;
+  }
+}
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+// Large devices (desktops, less than 1400px)
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    margin-right: 10px;
+  }
+  .content {
+    margin-left: 10px;
+  }
+}
+
+// custom
+@media (max-width: 867px) {
+}
+
+@media (max-width: 767.98px) {
+  .flex-column-sm {
+    flex-direction: column;
+  }
+
+  .container {
+    max-width: auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-right: 0;
+    max-width: none;
+  }
+  .content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .price {
+    margin: 10px 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flex-column-xsm {
+    flex-direction: column;
+  }
+  .align-items-start-xsm {
+    align-items: start;
+  }
+  .content {
+    .hotel-type,
+    .reviews-count,
+    .location {
+      margin-left: 0;
+    }
+  }
+}
+
+//
+@media (max-width: 480px) {
+}
+
+//
+@media (max-width: 414px) {
+}
+
+//
+@media (max-width: 360px) {
+}
+
+//
+@media (max-width: 320px) {
+}
